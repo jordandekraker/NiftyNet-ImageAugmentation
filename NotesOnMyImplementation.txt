@@ -3,9 +3,10 @@ HCP: 19 hippocampi
 agile12: 24 hippocampi
 UPenn: 26 hippocampi
 
-1) import data (to multisite_cropped/):
+1) import data (to multisite_cropped/)
+<you'll have to come up with your own analogous code for your wn data>
 
-2) run all ANTs registrations: (spawns many jobs!)
+2) run all ANTs registrations (spawns many jobs!):
 regularSubmit -j Skinny matlab -nosplash -nodisplay -nojvm -r "'ANTsReg_allcross; exit'"
 
 3) propogate ANTsregistrations:
