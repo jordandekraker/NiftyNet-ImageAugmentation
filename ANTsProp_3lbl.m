@@ -1,3 +1,5 @@
+% this script will propogate all labelmaps and underlying images through ANTs registrations.
+
 clear;
 
 subs = ls('multisite_cropped/*.lbl.nii.gz');
