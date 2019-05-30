@@ -11,4 +11,4 @@
 module load arch/avx512 StdEnv/2018.3
 nvidia-smi
 
-singularity exec -B /scratch/jdekrake:/scratch/jdekrake --nv deeplearning_gpu.simg net_segment -c highres3dnet_hippocampus_parcellation/highres3dnet_hippocampus_config.ini train
+singularity exec -B /scratch/jdekrake:/scratch/jdekrake --nv deeplearning_gpu.simg net_segment -c highres3dnet_hippocampus_config.ini train
