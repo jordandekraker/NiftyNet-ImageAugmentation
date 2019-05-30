@@ -6,7 +6,7 @@ This code is meant to be used as a minimalist example for how to apply the princ
 Note in this implementation, model-based augmentation is based on ANTs label-label registration, rather than on RegNet as in the above reference. 
 
 # Dependencies
-- https://github.com/yinglilu/deeplearning_gpu_singularity (for NiftyNet, HPC cluster configuration, and generally helpful tools)
+- https://github.com/yinglilu/deeplearning_gpu_singularity (for NiftyNet and generally helpful tools on HPC clusters)
 - https://github.com/khanlab/neuroglia-helpers (for job submission management in HPC clusters)
 - http://stnava.github.io/ANTs/ (for image registration)
 
