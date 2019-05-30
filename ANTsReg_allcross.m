@@ -1,3 +1,6 @@
+# this file loops through all available subjects and submits jobs for their registration with 
+# all other subjects. This will spawn many jobs!
+
 clear;
 
 subs = ls('multisite_cropped/*.lbl.nii.gz');
