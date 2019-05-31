@@ -1,5 +1,5 @@
 # NiftyNet-ImageAugmentation
-Code, slides, and examples of how to augment image-based deep learning problems using the method described by Uzonova et al. (2017).
+Code, slides, and examples of how to augment image-based deep learning problems using a method similar to Uzonova et al. (2017).
 
 This code is meant to be used as a minimalist example for how to apply the principles to new data. See NotesOnMyImplementation.txt for instructions on how to step through these scripts. Data are not provided (far too large), so the code cannot be run out-of-the-box.
 
